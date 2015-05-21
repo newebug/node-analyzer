@@ -1,0 +1,31 @@
+{
+  "name": "node-analyzer",
+  "version": "5.0.0",
+  "private": false,
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.11.2"
+  },
+  "description": "The node.js implement of IKAnalyzer Chinese Segmenter. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newebug/node-analyzer.git"
+  },
+  "keywords": [
+    "node.js",
+    "Chinese",
+    "segmenter",
+    "analyzer",
+    "ikanalyzer"
+  ],
+  "author": "newebug@gmail.com",
+  "license": "Apache Licence 2.0",
+  "bugs": {
+    "url": "https://github.com/newebug/node-analyzer/issues"
+  }
+}
