@@ -8,6 +8,7 @@
 test.js
 
       var Segmenter = require('node-analyzer');
+      var segmenter = new Segmenter();
       
       var txt = '１９９５年１０月，希腊海运部长访华时，他根据“船长”的建议与中方探讨了在海运、造船方面合作的可能与途径。';
       console.log('txt: ', txt);
