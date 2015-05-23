@@ -21,7 +21,8 @@
     "Chinese",
     "segmenter",
     "analyzer",
-    "ikanalyzer"
+    "ikanalyzer",
+    "中文分词"
   ],
   "author": "newebug@gmail.com",
   "license": "Apache Licence 2.0",
