@@ -1,8 +1,9 @@
 var Segmenter = require('./lib/Segmenter');
 var segmenter = new Segmenter();
 
-var txt = '£±£¹£¹£µÄê£±£°ÔÂ£¬ËûÓëÖĞ·½Ì½ÌÖÁËÔÚº£ÔË¡¢Ôì´¬·½ÃæºÏ×÷µÄ¿ÉÄÜÓëÍ¾¾¶¡£';
+var txt = 'ï¼‘ï¼™ï¼™ï¼•å¹´ï¼‘ï¼æœˆï¼Œä»–ä¸ä¸­æ–¹æ¢è®¨äº†åœ¨æµ·è¿ã€é€ èˆ¹æ–¹é¢åˆä½œçš„å¯èƒ½ä¸é€”å¾„ã€‚';
 console.log('txt: ', txt);
+
 
 var result = segmenter.analyze(txt);
 console.log('result: ', result);
