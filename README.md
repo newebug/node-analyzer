@@ -2,7 +2,8 @@
 基于 IKAnalyzer 字典分词器的 node.js 实现
 
 # 安装
-暂时没有发布到 npm，可打包下载解压到 node_modules 目录下使用
+      
+      npm i node-analyzer
 
 # 用法
 test.js
