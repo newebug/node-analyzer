@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/newebug/node-analyzer.png)](https://travis-ci.org/newebug/node-analyzer)
 [![npm version](https://badge.fury.io/js/node-analyzer.svg)](http://badge.fury.io/js/node-analyzer)
+[![NPM Downloads][node-analyzer-downloads-image]][node-analyzer-downloads-url]
 # node-analyzer
 基于 IKAnalyzer 字典分词器的 node.js 实现
 
