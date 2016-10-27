@@ -22,6 +22,19 @@ test.js
       
       // result:  １９９５年 １０月 ， 他 与 中方 探讨 了 在 海运 、 造船 方面 合作 的 可能 与 途径 。
 
+# 字典
+默认字典在 /lib/dict 目录下，当需要使用自定义字典时：
+      
+      var opts = {
+        MainDictPath: 'your_dict_folder/main.dic',
+        SurnameDictPath: 'your_dict_folder/dict/surname.dic',
+        QuantifierDictPath: 'your_dict_folder/dict/quantifier.dic',
+        SuffixDictPath: 'your_dict_folder/dict/suffix.dic',
+        PrepDictPath: 'your_dict_folder/dict/preposition.dic',
+        StopWordDictPath: 'your_dict_folder/dict/stopword.dic',
+      };
+      var segmenter = new Segmenter(opts);
+
 # 效果
 对 Backoff 2005 的测试语料 pku_test.utf8，msr_test.utf8 结果如下：
 
