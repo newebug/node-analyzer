@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/newebug/node-analyzer.png)](https://travis-ci.org/newebug/node-analyzer)
-[![npm version](https://badge.fury.io/js/node-analyzer.svg)](http://badge.fury.io/js/node-analyzer)
+[![npm version](https://badge.fury.io/js/node-analyzer.svg)](https://badge.fury.io/js/node-analyzer)
 [![NPM Downloads](https://img.shields.io/npm/dm/node-analyzer.svg)](https://npmjs.org/package/node-analyzer)
 # node-analyzer
 基于 IKAnalyzer 字典分词器的 node.js 实现
@@ -34,6 +34,8 @@ test.js
         StopWordDictPath: 'your_dict_folder/dict/stopword.dic',
       };
       var segmenter = new Segmenter(opts);
+      
+      // var segmenter = new Segmenter();   // 使用默认字典
 
 # 效果
 对 Backoff 2005 的测试语料 pku_test.utf8，msr_test.utf8 结果如下：
