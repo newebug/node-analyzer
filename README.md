@@ -32,8 +32,13 @@ test.js
         SuffixDictPath: 'your_dict_folder/dict/suffix.dic',
         PrepDictPath: 'your_dict_folder/dict/preposition.dic',
         StopWordDictPath: 'your_dict_folder/dict/stopword.dic',
-      };
-      var segmenter = new Segmenter(opts);
+        
+        Config: {
+            ext_dict: [],
+            ext_stopwords: []
+        }
+      }; // 全部字段可选
+      var segmenter = new Segmenter(opts);
       
       // var segmenter = new Segmenter();   // 使用默认字典
 
