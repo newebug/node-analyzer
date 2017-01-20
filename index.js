@@ -1,1 +1,1 @@
-module.exports = require('./lib/segmenter');
+module.exports = require('./lib/Segmenter');
